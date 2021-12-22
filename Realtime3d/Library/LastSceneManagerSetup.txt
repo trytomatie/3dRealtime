@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/10-Camera/Scenes/10-Camera-Start.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
