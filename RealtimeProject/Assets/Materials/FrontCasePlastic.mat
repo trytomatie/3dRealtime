@@ -37,7 +37,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_2:
-        m_Texture: {fileID: 2800000, guid: cd396674420e1434eb7b2952be13f425, type: 3}
+        m_Texture: {fileID: 2800000, guid: 83d06095f8740f54db51512341b176fd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_3:
@@ -115,7 +115,7 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _ColorChangeAnimationValue: 0.967
+    - _ColorChangeAnimationValue: -0.05
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
@@ -146,8 +146,8 @@ Material:
     - Color_fb6b4871d288435182538bd85f4054a7_1: {r: 18.379171, g: 1.9766266, b: 2.304255, a: 0}
     - Vector2_0a83f20bfc704747a7135760d8655fe8: {r: 0.2, g: 0.2, b: 0, a: 0}
     - _BaseColor: {r: 0.42358282, g: 0.42358282, b: 0.42358282, a: 1}
-    - _ChangeColor: {r: 1, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.15, g: 0.15, b: 0.15, a: 1}
+    - _ChangeColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.63214624, g: 0.6415094, b: 0.30501956, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []

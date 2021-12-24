@@ -16,7 +16,7 @@ public class MaterialColorToLightSource : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Color = material.color;
+        //Color = material.color;
     }
 
     public Color Color 

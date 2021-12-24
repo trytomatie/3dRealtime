@@ -7,6 +7,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: CPU_KuelerMetall
+    second: {fileID: 2100000, guid: 546bd3de4c400804cb816592611a53ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CPU_KuelerMetall2
+    second: {fileID: 2100000, guid: 50822dfb15b33e749b175a6c6777307b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: CaseMetall
     second: {fileID: 2100000, guid: 29140316e0297464fba04734aa306d8f, type: 2}
   - first:
@@ -34,6 +44,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Glass
     second: {fileID: 2100000, guid: a02f9a472aab82c4ca46f1077039231b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glow
+    second: {fileID: 2100000, guid: a08123cd6b1b50f47abc414c78a5dfdb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -94,6 +109,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Polygon.4
     second: {fileID: 2100000, guid: b405c0bd12f75f946a39577bb705ca6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RAM_Glow
+    second: {fileID: 2100000, guid: a329d22b555daae4f873f569b2141459, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RAM_Plastik
+    second: {fileID: 2100000, guid: 0c908aa8833f00f49b1c86ba4310ce0f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
