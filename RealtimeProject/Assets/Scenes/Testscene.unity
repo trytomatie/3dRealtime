@@ -344,7 +344,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.64144397, g: 0.769, b: 0, a: 0}
+  m_Color: {r: 0.8341274, g: 1, b: 0, a: 0}
   m_Intensity: 0.5
   m_Range: 2
   m_SpotAngle: 30
@@ -437,7 +437,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.64144397, g: 0.769, b: 0, a: 0}
+  m_Color: {r: 0.8341274, g: 1, b: 0, a: 0}
   m_Intensity: 2.96
   m_Range: 1
   m_SpotAngle: 179
@@ -680,7 +680,7 @@ MonoBehaviour:
   lightSources:
   - {fileID: 1394289584}
   - {fileID: 944631561}
-  intensity: 7.69
+  intensity: 18.48
   color: {r: 0.8341274, g: 1, b: 0, a: 0}
 --- !u!4 &1976564654
 Transform:
