@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Plastic_Shader*
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 679, y: 492}
+  m_MinSize: {x: 579, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 60
+  controlID: 108
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 1431
     height: 947
-  m_MinSize: {x: 403, y: 492}
+  m_MinSize: {x: 303, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 61
+  controlID: 62
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,10 +169,10 @@ MonoBehaviour:
     y: 0
     width: 1431
     height: 564
-  m_MinSize: {x: 403, y: 221}
+  m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 62
+  controlID: 63
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: MaterialGraphEditWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -218,9 +218,9 @@ MonoBehaviour:
     y: 0
     width: 1079
     height: 564
-  m_MinSize: {x: 202, y: 221}
+  m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
@@ -229,8 +229,8 @@ MonoBehaviour:
   - {fileID: 14}
   - {fileID: 13}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 5
+  m_Selected: 3
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -4348,9 +4348,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7cc6feff
-      m_LastClickedID: -80260
-      m_ExpandedIDs: 88c6feff221fffff36ebffffc6efffff50fbffff
+      m_SelectedIDs: acecffff
+      m_LastClickedID: -4948
+      m_ExpandedIDs: 7eefffff50fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -4410,9 +4410,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.19919905, y: 0.15302433, z: -0.33198738}
+    m_Target: {x: -0.20209284, y: -0.5754363, z: 1.6728531}
     speed: 2
-    m_Value: {x: -0.19919905, y: 0.15302433, z: -0.33198738}
+    m_Value: {x: -0.20209284, y: -0.5754363, z: 1.6728531}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -4459,13 +4459,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.062616, y: 0.36962542, z: -0.025080163, w: 0.9267793}
+    m_Target: {x: 0.17900123, y: -0.02067636, z: 0.003659508, w: 0.98367494}
     speed: 2
-    m_Value: {x: 0.061259672, y: 0.36825484, z: -0.02443261, w: 0.92738265}
+    m_Value: {x: 0.17899768, y: -0.019199876, z: 0.0033908347, w: 0.98365635}
   m_Size:
-    m_Target: 0.16352057
+    m_Target: 1.0635207
     speed: 2
-    m_Value: 0.16352057
+    m_Value: 1.0635207
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -4538,8 +4538,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -538.5
     m_HBaseRangeMax: 538.5
-    m_VBaseRangeMin: -261
-    m_VBaseRangeMax: 261
+    m_VBaseRangeMin: -271.5
+    m_VBaseRangeMax: 271.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -4556,11 +4556,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 1077
-      height: 522
+      height: 543
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 538.5, y: 261}
+    m_Translation: {x: 538.5, y: 271.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -4568,9 +4568,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -538.5
-      y: -261
+      y: -271.5
       width: 1077
-      height: 522
+      height: 543
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1077, y: 543}
@@ -6235,22 +6235,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Textures/Ram
+    - Assets/Meshes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Textures/Ram
+  - Assets/Meshes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Git\Realtime\3dRealtime\RealtimeProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 22}
-    m_SelectedIDs: 3a560000
-    m_LastClickedID: 22074
-    m_ExpandedIDs: 00000000d2550000ea550000f85500003a5600001858000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 4c560000
+    m_LastClickedID: 22092
+    m_ExpandedIDs: 00000000445600004656000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -6278,7 +6278,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d2550000d4550000
+    m_ExpandedIDs: 000000004456000046560000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
