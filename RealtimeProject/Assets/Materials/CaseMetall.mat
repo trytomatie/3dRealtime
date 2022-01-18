@@ -89,7 +89,7 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _ColorChangeAnimationValue: 0
+    - _ColorChangeAnimationValue: 0.871
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
@@ -115,12 +115,12 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_f6cad33c08cf486d950e9ce516e4677a: {r: 0, g: 0.42346168, b: 1, a: 0}
-    - Color_f6edca619df4428c99368e852e65c44d: {r: 9.082411, g: 7.750958, b: 0, a: 0}
+    - Color_f6edca619df4428c99368e852e65c44d: {r: 9.082411, g: 0, b: 6.507615, a: 0}
     - Color_fb6b4871d288435182538bd85f4054a7: {r: 1, g: 1, b: 1, a: 0}
     - Vector2_0a83f20bfc704747a7135760d8655fe8: {r: 0.2, g: 0.2, b: 0, a: 0}
     - _BaseColor: {r: 0.56572837, g: 0.56572837, b: 0.56572837, a: 1}
-    - _ChangeColor: {r: 1, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.71717244, g: 0.48235294, b: 0.81960785, a: 0}
+    - _ChangeColor: {r: 0, g: 0.21708465, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
