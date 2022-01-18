@@ -78,7 +78,7 @@ public class ColorManager : MonoBehaviour
             i++;
             yield return new WaitForEndOfFrame();
         }
-        while (i < 400 && value != maxAnimValue && value != maxAnimValue && !interuptAnimaton);
+        while (i < 1000 && value != maxAnimValue && value != maxAnimValue && !interuptAnimaton);
     }
 
     [CustomEditor(typeof(ColorManager))]
