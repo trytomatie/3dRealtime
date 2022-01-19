@@ -2,19 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.UI;
 
 public class RoomManager : MonoBehaviour
 {
 
     public List<GameObject> rooms = new List<GameObject>();
+    public List<Camera> cameras = new List<Camera>();
     public int roomIndex = 0;
     public Image transitionImage;
     public float transitionSpeed = 1;
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -49,6 +50,23 @@ public class RoomManager : MonoBehaviour
                     room.gameObject.SetActive(false);
                 }
                 rooms[index].SetActive(true);
+                if(rooms[index].CompareTag("SkyBoxOn"))
+                {
+                    foreach(Camera camera in cameras)
+                    {
+                        camera.enabled = false;
+                    }
+                    cameras[1].enabled = true;
+                }
+                else
+                {
+                    foreach (Camera camera in cameras)
+                    {
+                        camera.enabled = false;
+                    }
+                    cameras[0].enabled = true;
+
+                }
                 yield return new WaitForSeconds(0.2f);
                 direction = -1;
                 roomChanged = true;
