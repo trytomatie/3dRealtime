@@ -14,7 +14,7 @@ public class MainboardTextureChange : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        ChangeMaterial(0);
     }
 
     // Update is called once per frame
@@ -27,7 +27,7 @@ public class MainboardTextureChange : MonoBehaviour
     }
 
 
-    private void ChangeMaterial(int textureIndex)
+    public void ChangeMaterial(int textureIndex)
     {
         mainboardShader.SetTexture("_BaseColor", baseColorTexture[textureIndex]);
     }
