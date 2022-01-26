@@ -990,7 +990,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "2a55b87a7a514278b9cd462a3e0133db",
     "m_Id": 0,
-    "m_DisplayName": "RGB_Color",
+    "m_DisplayName": "RGBEmissionColor",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1979,9 +1979,9 @@
     "m_Guid": {
         "m_GuidSerialized": "67fcb622-ad05-446f-8a74-e5d5cde4cec3"
     },
-    "m_Name": "RGB_Color",
+    "m_Name": "RGBEmissionColor",
     "m_DefaultReferenceName": "Color_97f2b4d0608141b386603c46147fc298",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "_RGBEmissionColor",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
