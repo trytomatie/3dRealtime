@@ -131,7 +131,7 @@ public class RamManager : MonoBehaviour
         //setze alle Ramslots auf den Wert valueBool
         for (int i = 0; i < ramSlots.Length; i++)
         {
-            
+            ramSlots[i].SetActive(valueBool);
         }
     }
 
@@ -157,8 +157,7 @@ public class RamManager : MonoBehaviour
         {
             MeshRenderer ramRenderer = ramSlots[i].GetComponent<MeshRenderer>();
             ramRenderer.material.SetColor("_RGBEmissionColor", rgbColor[colorIndex]);
-            print(ramRenderer);
-            print(rgbColor[colorIndex]);
+            
         }
     }
 

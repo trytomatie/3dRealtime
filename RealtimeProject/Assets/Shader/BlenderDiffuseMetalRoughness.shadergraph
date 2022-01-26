@@ -705,7 +705,7 @@
     },
     "m_Name": "DiffuseColor",
     "m_DefaultReferenceName": "Texture2D_12c83302f2df442e8896713d67c34881",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "_DiffuseTexture",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
