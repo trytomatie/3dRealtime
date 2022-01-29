@@ -39,7 +39,6 @@ public class MaterialColorToLightSource : MonoBehaviour
 
     }
 
-
 }
 
 [CustomEditor(typeof(MaterialColorToLightSource))]

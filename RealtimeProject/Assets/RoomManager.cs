@@ -13,6 +13,8 @@ public class RoomManager : MonoBehaviour
     public int roomIndex = 0;
     public Image transitionImage;
     public float transitionSpeed = 1;
+
+    private bool isTransitioning = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,51 +32,56 @@ public class RoomManager : MonoBehaviour
 
     IEnumerator ChangeRoomAnimation(int index)
     {
-
-
-        int i = 0; // Breakout index
-        bool roomChanged = false;
-        float alphaValue = 0;
-        float timer = 0;
-        int direction = 1;
-        do
+        if(!isTransitioning)
         {
-            timer += Time.deltaTime;
-            alphaValue += Time.deltaTime * transitionSpeed * direction;
-            // print(alphaValue);
-            transitionImage.color = new Color(transitionImage.color.r, transitionImage.color.g, transitionImage.color.b, alphaValue);
-            if(alphaValue > 1f && !roomChanged)
+            
+        
+            isTransitioning = true;
+            int i = 0; // Breakout index
+            bool roomChanged = false;
+            float alphaValue = 0;
+            float timer = 0;
+            int direction = 1;
+            do
             {
-                foreach (GameObject room in rooms)
+                timer += Time.deltaTime;
+                alphaValue += Time.deltaTime * transitionSpeed * direction;
+                // print(alphaValue);
+                transitionImage.color = new Color(transitionImage.color.r, transitionImage.color.g, transitionImage.color.b, alphaValue);
+                if(alphaValue > 1f && !roomChanged)
                 {
-                    room.gameObject.SetActive(false);
-                }
-                rooms[index].SetActive(true);
-                if(rooms[index].CompareTag("SkyBoxOn"))
-                {
-                    foreach(Camera camera in cameras)
+                    foreach (GameObject room in rooms)
                     {
-                        camera.enabled = false;
+                        room.gameObject.SetActive(false);
                     }
-                    cameras[1].enabled = true;
-                }
-                else
-                {
-                    foreach (Camera camera in cameras)
+                    rooms[index].SetActive(true);
+                    if(rooms[index].CompareTag("SkyBoxOn"))
                     {
-                        camera.enabled = false;
+                        foreach(Camera camera in cameras)
+                        {
+                            camera.enabled = false;
+                        }
+                        cameras[1].enabled = true;
                     }
-                    cameras[0].enabled = true;
+                    else
+                    {
+                        foreach (Camera camera in cameras)
+                        {
+                            camera.enabled = false;
+                        }
+                        cameras[0].enabled = true;
 
+                    }
+                    yield return new WaitForSeconds(0.2f);
+                    direction = -1;
+                    roomChanged = true;
                 }
-                yield return new WaitForSeconds(0.2f);
-                direction = -1;
-                roomChanged = true;
+                i++;
+                yield return new WaitForEndOfFrame();
             }
-            i++;
-            yield return new WaitForEndOfFrame();
+            while (i < 4020 && alphaValue > 0);
+            isTransitioning = false;
         }
-        while (i < 4020 && alphaValue > 0);
 
     }
 

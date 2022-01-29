@@ -65,7 +65,6 @@ public class ColorManager : MonoBehaviour
             }
             direction = 1;
         }
-        print(direction);
         int i = 0; // Breakout index
 
         do
