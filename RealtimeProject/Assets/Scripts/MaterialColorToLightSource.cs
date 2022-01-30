@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MaterialColorToLightSource : MonoBehaviour
 {
@@ -19,29 +20,33 @@ public class MaterialColorToLightSource : MonoBehaviour
         //Color = material.color;
     }
 
-    public Color Color 
-    { 
+    public Color Color
+    {
         get => color;
-        set 
+        set
         {
             SetColor(value);
             color = value;
-        } 
+        }
     }
 
     public void SetColor(Color color)
     {
-        material.SetColor("Color_29a375e269434577a51ce698be68cd4b", color * intensity);
-        foreach(Light lightSource in lightSources)
+        material.SetColor("_Color", color * intensity);
+        foreach (Light lightSource in lightSources)
         {
-            lightSource.color = color * Mathf.Clamp(intensity * 0.1f,0,1);
+            lightSource.color = color * Mathf.Clamp(intensity * 0.1f, 0, 1);
         }
 
     }
 
+    public void SetColor(Image img)
+    {
+        SetColor(img.color);
+    }
 }
 
-[CustomEditor(typeof(MaterialColorToLightSource))]
+    [CustomEditor(typeof(MaterialColorToLightSource))]
 public class MaterialColorToLightSourceEditor : Editor
 {
     public override void OnInspectorGUI()
