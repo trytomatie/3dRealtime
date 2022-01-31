@@ -5436,7 +5436,7 @@
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "ab99e1041da446e1b0cd19a053c2584e",
     "m_Title": "Change Color",
-    "m_Content": "Write something here",
+    "m_Content": "Hier wird der Farbübergang gemacht\n\nviele Grüße Chris",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
@@ -6323,10 +6323,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1970.3997802734375,
-            "y": -3060.800048828125,
-            "width": 149.59996032714845,
-            "height": 33.600093841552737
+            "x": -1966.0001220703125,
+            "y": -3027.000244140625,
+            "width": 147.0,
+            "height": 34.0
         }
     },
     "m_Slots": [

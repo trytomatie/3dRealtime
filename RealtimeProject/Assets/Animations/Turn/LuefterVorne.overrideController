@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LuefterVorne
+  m_Controller: {fileID: 9100000, guid: de1aa8a4e9e168e479951215b2056fdb, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: b22fc8f274ff2f5488abc80bb3397aac, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4717e55ada9129a4ab9697b25c37abf1, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: cba0eb6d22480c847afe4e739b76e5b6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0cdb95e8d02b5ee40aaa27856248fa26, type: 2}

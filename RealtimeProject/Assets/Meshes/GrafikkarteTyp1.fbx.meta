@@ -2,7 +2,25 @@ fileFormatVersion: 2
 guid: 04906cba44a0dfc48aba353f2025e99f
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: 2316198895583811761
+    second: GrafikkarteLuefter1|GrafikkarteLuefter1Action
+  - first:
+      74: -4939849069389993458
+    second: GrafikkarteLuefter1|GrafikkarteLuefter2Action
+  - first:
+      74: -530833071422453235
+    second: GrafikkarteLuefter2|GrafikkarteLuefter1Action
+  - first:
+      74: -887200412630260861
+    second: GrafikkarteLuefter2|GrafikkarteLuefter2Action
+  - first:
+      74: 1040415648980471163
+    second: GrafikkarteLuefter1|GPU_luefter_Drehen
+  - first:
+      74: -1861334418267990822
+    second: GrafikkarteLuefter2|GPU_luefter_Drehen
   externalObjects:
   - first:
       type: UnityEngine:Material
