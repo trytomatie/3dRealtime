@@ -47,7 +47,8 @@ public class MaterialColorToLightSource : MonoBehaviour
     }
 }
 
-    [CustomEditor(typeof(MaterialColorToLightSource))]
+#if (UNITY_EDITOR)
+[CustomEditor(typeof(MaterialColorToLightSource))]
 public class MaterialColorToLightSourceEditor : Editor
 {
     public override void OnInspectorGUI()
@@ -62,3 +63,5 @@ public class MaterialColorToLightSourceEditor : Editor
 
     
 }
+
+#endif
