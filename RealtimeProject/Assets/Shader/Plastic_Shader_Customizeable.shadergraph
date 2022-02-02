@@ -3550,10 +3550,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -3022.399658203125,
+            "x": -2964.0,
             "y": -2294.399658203125,
             "width": 207.99998474121095,
-            "height": 302.39990234375
+            "height": 301.5998229980469
         }
     },
     "m_Slots": [
@@ -4682,7 +4682,7 @@
     },
     "m_Name": "CustomColor",
     "m_DefaultReferenceName": "",
-    "m_OverrideReferenceName": "Color_fb6b4871d288435182538bd85f4054a7_1",
+    "m_OverrideReferenceName": "_CustomColor",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,

@@ -87,7 +87,7 @@ public class ColorManager : MonoBehaviour
         {
             DrawDefaultInspector();
             ColorManager myTarget = (ColorManager)target;
-            if (GUILayout.Button("Set Lightcolors"))
+            if (GUILayout.Button("Set Colors"))
             {
                 myTarget.ChangeColor(myTarget.changeColor);
             }

@@ -18,6 +18,7 @@ public class MaterialColorToLightSource : MonoBehaviour
     void Start()
     {
         //Color = material.color;
+        SetColor(Color.white);
     }
 
     public Color Color
