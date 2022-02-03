@@ -37,7 +37,7 @@ public class GrafikkartenManager : MonoBehaviour
 
     public void SetRgbPannel()
     {
-
+        //Toggle das RGB pannel an und aus
         if (!showRgbPan)
         {
             showRgbPan = true;

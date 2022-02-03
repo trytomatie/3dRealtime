@@ -31,10 +31,7 @@ public class MainboardTextureChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       /* if (Input.GetKeyDown(KeyCode.UpArrow)==true)
-        {
-            ChangeMaterial(basecolorIndex);
-        }*/
+       
     }
 
     //verändere die Basecolor des Mainboards zu dem Index
@@ -52,7 +49,7 @@ public class MainboardTextureChange : MonoBehaviour
 
     public void SetRgbPannel()
     {
-
+        //Toggle das RGB Pannel
         if (!showRgbPan)
         {
             showRgbPan = true;

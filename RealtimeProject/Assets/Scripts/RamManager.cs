@@ -137,7 +137,7 @@ public class RamManager : MonoBehaviour
 
     public void SetRgbPannel()
     {
-
+        //toggle das Farb Panel
         if (!showRgbPan)
         {
             showRgbPan = true;
@@ -151,7 +151,7 @@ public class RamManager : MonoBehaviour
 
     public void ChangeRgbColor(int colorIndex)
     {
-
+        //setze die RGB Farbe für alle Ram Sticks
         print(colorIndex);
         for (int i = 0; i < ramSlots.Length; i++)
         {
