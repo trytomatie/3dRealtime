@@ -21,6 +21,24 @@ ModelImporter:
   - first:
       74: -1861334418267990822
     second: GrafikkarteLuefter2|GPU_luefter_Drehen
+  - first:
+      74: 2824837429317336844
+    second: GrafikkarteLuefter1|Grafikkarte.001Action
+  - first:
+      74: -8298910211522248880
+    second: GrafikkarteLuefter1|GrafikkarteLuefter1.001Action
+  - first:
+      74: -6065889211772473026
+    second: GrafikkarteLuefter1|GrafikkarteLuefter2.001Action
+  - first:
+      74: 468448190609881259
+    second: GrafikkarteLuefter2|Grafikkarte.001Action
+  - first:
+      74: -196504738447463564
+    second: GrafikkarteLuefter2|GrafikkarteLuefter1.001Action
+  - first:
+      74: -2881801525389051550
+    second: GrafikkarteLuefter2|GrafikkarteLuefter2.001Action
   externalObjects:
   - first:
       type: UnityEngine:Material
